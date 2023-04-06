@@ -1,5 +1,53 @@
+@font-face {
+    font-family: 'font';
+    src: url(../fonte.ttf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "font";
+}
+:root {
+    --preto: rgb(0, 0, 0);
+    --primaria: rgb(9, 180, 218);
+    --branco: rgb(255, 255, 255);
+}
+body {
+    background-color: rgb(14, 14, 14);
+}
+.img-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.logo {
+    width: 120px;
+}
+.exit {
+    width: 120px;
+}
+.albuns {
+    font-size: medium;
+    color: var(--branco);
+}
+.albuns-2 {
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    max-width: 165px;
+    margin-right: 25px;
+    text-align: center;
+}
+.titulo {
+    color: var(--branco);
+    margin-left: 40px;
 }
