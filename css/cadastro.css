@@ -13,7 +13,7 @@
     --primaria: rgb(9, 180, 218);
 }
 body {
-    background-image: url(../img/planofundo.png);
+    background-image: url(../img/background.png);
     background-size: cover;
 }
 .login {
